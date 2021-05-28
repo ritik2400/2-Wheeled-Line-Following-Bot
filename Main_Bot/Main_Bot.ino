@@ -1,6 +1,6 @@
 short int s[8],s_sum,j=0;//sensor readings and their sums. junction count.
 
-//Motor Driver used is MDD10A
+//Motor Driver used had PWM and Direction pins for each motor.
 short int LP=9,RP=11,LD=6,RD=10;//These are the Pin numbers for PWM and Direction pin of left and right motors
 float RMS,LMS,//Calculated motor speed through PD Controller
       turnspd=60,basespd=110;//Initial speeds before PID for forward and turns.
