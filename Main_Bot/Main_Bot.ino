@@ -1,4 +1,3 @@
-//long unsigned int previous_time;
 short int s[8],s_sum,j=0;//sensor readings and their sums. junction count.
 
 //Motor Driver used is MDD10A
